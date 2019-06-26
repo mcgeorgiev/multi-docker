@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "ci-test": "CI=true react-scripts test",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
